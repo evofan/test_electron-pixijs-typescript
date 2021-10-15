@@ -3,6 +3,7 @@ Sample using Electron, Pixi.JS and Spine and TypeScript to make a game app that 
 
 original:  
 [https://github.com/Mkalo/electron-pixijs-typescript](https://github.com/Mkalo/electron-pixijs-typescript)  
+(erased glup lint)  
 
 **DEMO**  
 Web:  
@@ -27,6 +28,7 @@ You can also build your app to work on a web browser using.
 Make Installer  
 `electron-builder --win --x64`  
 
+　  
 reference  
 
 **PixiJS Examples Pixie**  
@@ -56,10 +58,6 @@ or use other branch.
 (Electronで1からデスクトップアプリを作り、electron-builderを使ってビルド・リリースするまで - Qiita)  
 [https://qiita.com/saki-engineering/items/203892838e15b3dbd300](https://qiita.com/saki-engineering/items/203892838e15b3dbd300)  
 
-memo  
-erased glup lint...  
-nodeIntegration security ok?  
-
 **Electron | Build cross-platform desktop apps with JavaScript, HTML, and CSS.**  
 [https://www.electronjs.org/](https://www.electronjs.org/)  
 
@@ -74,11 +72,13 @@ nodeIntegration security ok?
 (Uncaught Error: Cannot find module)  
 **electron-builderで「Error: Cannot find module 」が出る場合について | Sysrigar**  
 [https://sysrigar.com/2019/11/23/electron-builder%E3%81%A7%E3%80%8Cerror-cannot-find-module-%E3%80%8D%E3%81%8C%E5%87%BA%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84/](https://sysrigar.com/2019/11/23/electron-builder%E3%81%A7%E3%80%8Cerror-cannot-find-module-%E3%80%8D%E3%81%8C%E5%87%BA%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84/)  
->本件エラーは electron-builder の導入先への指定がおかしいため生じていました。
+>本件エラーは electron-builder の導入先への指定がおかしいため生じていました。  
+
 npm i -D electron-builderを追加  
 
 **electornで作成した実行ファイル(app/exe)を実行すると「Error: Cannot find module ～」が発生 | Tech Memo**  
 [https://tech.shiroshika.com/electorn-error-cannot-find-module/](https://tech.shiroshika.com/electorn-error-cannot-find-module/)  
->package.jsonの「dependencies」にパッケージの記載がない  
+>package.jsonの「dependencies」にパッケージの記載がない   
+
 dependenciesにエラーが出たモジュールを追加  
 
