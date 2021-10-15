@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2017",
+		"lib": [
+			"es2017",
+			"es2017.object",
+			"dom"
+		],
+		"declaration": false,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"allowJs": true,
+
+		"moduleResolution": "node"
+	},
+	"exclude": [
+		"node_modules",
+		"build"
+	]
+}
