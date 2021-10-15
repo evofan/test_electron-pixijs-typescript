@@ -1,16 +1,19 @@
 # electron-pixijs-typescript and spine(pixi-spine)
 Sample using Electron, Pixi.JS and Spine and TypeScript to make a game app that runs on browser and on desktop.  
 
+original:  
+[https://github.com/Mkalo/electron-pixijs-typescript](https://github.com/Mkalo/electron-pixijs-typescript)  
+
 **DEMO**  
 Web:  
-<img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_by_browser.jpg" width="50%">   
-[https://evofan.github.io/electron-pixijs-typescript/build/app/index.html](https://evofan.github.io/electron-pixijs-typescript/build/app/index.html)  
+<img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_by_browser.jpg" width="50%">   
+[https://evofan.github.io/test_electron-pixijs-typescript/build/app/index.html](https://evofan.github.io/test_electron-pixijs-typescript/build/app/index.html)  
 
 Electron:  
-<img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_by_electron.jpg" width="50%">   
+<img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_by_electron.jpg" width="50%">   
 
-Installer: Releases / dist_20201008.zip  
-<img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_exec.jpg" width="50%"> <img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_inst1.jpg" width="25%">      
+Installer: Releases / latest  
+<img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_exec.jpg" width="50%"> <img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_inst1.jpg" width="25%">      
 
 **How to use it**  
 ```
@@ -22,43 +25,7 @@ You can also build your app to work on a web browser using.
 `npm run web`  
 
 Make Installer  
-`npm i -g electron-builder`  
 `electron-builder --win --x64`  
-
- **Update library**(2021/01)  
-~~~  
- @types/node        ^14.11.2  →  ^14.14.21
- electron            ^10.1.3  →    ^11.2.0
- gulp-sourcemaps      ^2.6.5  →     ^3.0.0
- pixi-spine          ^2.1.10  →    ^2.1.11
- pixi.js              ^5.3.3  →     ^5.3.7
- source-map-loader    ^1.0.0  →     ^2.0.0
- ts-loader            ^8.0.4  →    ^8.0.14
- typescript           ^4.0.3  →     ^4.1.3
- webpack             ^4.44.2  →    ^5.15.0
- webpack-stream       ^6.1.0  →     ^6.1.1
- ~~~  
-
-**Update library**(2020/10)  
-~~~  
- @types/node              ^11.11.3  →  ^14.11.2
- @types/pixi.js             ^4.8.6  →    ^5.0.0
- del                        ^4.0.0  →    ^6.0.0
- electron                   ^4.0.8  →   ^10.1.3
- gulp                       ^4.0.0  →    ^4.0.2
- gulp-typescript            ^5.0.0  →    ^5.0.1
- merge2                     ^1.2.3  →    ^1.4.1
- minimist                   ^1.2.3  →    ^1.2.5
- pixi.js                    ^4.8.6  →    ^5.3.3
- ts-loader                  ^5.3.3  →    ^8.0.4
- tslint                    ^5.13.1  →    ^6.1.3
- typescript              ^3.3.3333  →    ^4.0.3
- webpack                   ^4.29.6  →   ^4.44.2
- webpack-node-externals     ^1.7.2  →    ^2.5.2
- webpack-stream             ^5.2.1  →    ^6.1.0
- ~~~  
- 
- ---
 
 reference  
 
@@ -114,6 +81,4 @@ npm i -D electron-builderを追加
 [https://tech.shiroshika.com/electorn-error-cannot-find-module/](https://tech.shiroshika.com/electorn-error-cannot-find-module/)  
 >package.jsonの「dependencies」にパッケージの記載がない  
 dependenciesにエラーが出たモジュールを追加  
-
-
 
