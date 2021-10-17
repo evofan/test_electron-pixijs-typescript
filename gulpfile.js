@@ -47,6 +47,8 @@ gulp.task('build', () => {
 
 	const renderCompile = gulp.src('./app/index.ts')
 		.pipe(gulpWebpack({
+			// mode: "production",
+			mode: "development",
 			module: {
 				rules: [
 					{
