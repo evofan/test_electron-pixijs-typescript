@@ -1,11 +1,12 @@
 # electron-pixijs-typescript and spine(pixi-spine)
-Sample using Electron, Pixi.JS and Spine and TypeScript to make a game app that runs on browser and on desktop.  
+Sample of using Electron, Pixi.JS and Spine and TypeScript to make a game app that runs on browser and on desktop.  
 
 original:  
 [https://github.com/Mkalo/electron-pixijs-typescript](https://github.com/Mkalo/electron-pixijs-typescript)  
-(erased glup lint)  
 
 **DEMO**  
+   
+   
 Web:  
 <img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_by_browser.jpg" width="50%">   
 [https://evofan.github.io/test_electron-pixijs-typescript/build/app/index.html](https://evofan.github.io/test_electron-pixijs-typescript/build/app/index.html)  
@@ -16,7 +17,7 @@ Electron:
 Installer: Releases / latest  
 <img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_exec.jpg" width="50%"> <img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_inst1.jpg" width="25%">      
 
-**How to use it**  
+**Usage**  
 ```
 npm install
 npm run build
@@ -25,7 +26,7 @@ npm start
 You can also build your app to work on a web browser using.  
 `npm run web`  
 
-Make Installer  
+Make Installer(for Windows)  
 `electron-builder --win --x64`  
 
 　  
@@ -61,7 +62,7 @@ or use other branch.
 **Electron | Build cross-platform desktop apps with JavaScript, HTML, and CSS.**  
 [https://www.electronjs.org/](https://www.electronjs.org/)  
 
-(Uncaught ReferenceError: require is not defined)  
+【Uncaught ReferenceError: require is not defined】  
 **Electron 12.0.0 'Require' is not defined #463 electron/electron-quick-start**  
 [https://github.com/electron/electron-quick-start/issues/463](https://github.com/electron/electron-quick-start/issues/463)  
 >webPreferences: {
@@ -69,7 +70,7 @@ or use other branch.
 >	contextIsolation: false
 >}
 
-(Uncaught Error: Cannot find module)  
+【Uncaught Error: Cannot find module】  
 **electron-builderで「Error: Cannot find module 」が出る場合について | Sysrigar**  
 [https://sysrigar.com/2019/11/23/electron-builder%E3%81%A7%E3%80%8Cerror-cannot-find-module-%E3%80%8D%E3%81%8C%E5%87%BA%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84/](https://sysrigar.com/2019/11/23/electron-builder%E3%81%A7%E3%80%8Cerror-cannot-find-module-%E3%80%8D%E3%81%8C%E5%87%BA%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84/)  
 >本件エラーは electron-builder の導入先への指定がおかしいため生じていました。  
@@ -81,4 +82,3 @@ npm i -D electron-builderを追加
 >package.jsonの「dependencies」にパッケージの記載がない   
 
 dependenciesにエラーが出たモジュールを追加  
-
