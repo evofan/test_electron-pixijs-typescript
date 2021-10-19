@@ -84,6 +84,7 @@ npm i -D electron-builderを追加
 dependenciesにエラーが出たモジュールを追加  
 
 ■ The 'mode' option has not been set, webpack will fallback to 'production' for this value.  
+<img src="https://evofan.github.io/test_electron-pixijs-typescript/screenshot/pic_warning_mode.png" width="50%">   
 **Webpack 4を使ってみたらビルド時に[WARNING]が出たので**  
 [https://qiita.com/MasanoriIwakura/items/32f9be227adab21d7f87](https://qiita.com/MasanoriIwakura/items/32f9be227adab21d7f87)  
 >"scripts": {  
